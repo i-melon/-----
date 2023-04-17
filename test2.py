@@ -1,5 +1,5 @@
-arr = input().split
-b = arr[0]
-c = arr[1]
-d = arr[2]
-print((b*c)/d)
+b = int(input('введите б: '))
+c = int(input('введите с: '))
+d = int(input('введите д: '))
+a = (b*c)/d
+print(a)
